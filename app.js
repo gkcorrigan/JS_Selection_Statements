@@ -1,11 +1,11 @@
 console.log("Hello World!\n==========\n");
 let favoriteNumber = 8;
 
-favoriteNumber =prompt("Enter a number");
+const userInput =prompt("Enter a number");
 
-if (favoriteNumber <= 7){
+if (userInput <= 7){
   console.log ("too low");
-} else if (favoriteNumber >= 9){
+} else if (userInput >= 9){
   console.log ("too high");
 } else {
   console.log ("Congratulations!!!");
@@ -34,6 +34,9 @@ switch(birthMonth){
     case "January": 
     case "February":
       console.log("winter");
+      break;
+      default:
+        console.log("invaild birth month");
      
 }
 
@@ -83,68 +86,68 @@ if (sizeId == "S") {
 
 switch(typeId){
 case "01":
-  console.log("Tank top");
+  type="Tank top";
 
   break;
 case "02":
-  console.log("T-Shirt");
+  type="T-Shirt";
 
   break;
   case "03":
-    console.log("Long Sleeve");
+    type="Long Sleeve";
 
     break;
   case "04":
-    console.log("Sweat Shirt");
+    type="Sweat Shirt";
 
     break;
     default: 
-    console.log("Other");
+    type="Other";
 
 
 }
 switch(colorId){
   case "BK":
-    console.log("Black");
+    color="Black";
   
     break;
   case "BL":
-    console.log("Blue");
+    color="Blue";
   
     break;
     case "RD":
-      console.log("Red");
+      color="Red";
   
       break;
     case "PU":
-      console.log("Purple");
+      color="Purple";
   
       break;
       default: 
-      console.log("White");
+      color="White";
   
   
   }
 
   switch(sizeId){
     case "S":
-      console.log("Small");
+      size="Small";
     
       break;
     case "M":
-      console.log("Medium");
+      size="Medium";
     
       break;
       case "L":
-        console.log("Large");
+        size="Large";
     
         break;
       case "XL":
-        console.log("Extra Large");
+        size="Extra Large";
     
         break;
         default: 
-        console.log("One Size Fits All");
+        size="One Size Fits All";
     
     
     }
